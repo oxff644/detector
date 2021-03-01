@@ -1,0 +1,9 @@
+termcolor==1.1.0
+celery==5.0.5
+requests_html==0.10.0
+yagmail==0.14.245
+pytest
+tqdm
+pickledb
+black
+isort
