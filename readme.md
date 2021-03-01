@@ -5,10 +5,10 @@
 
 
 
-** config.py 配置文件** 可配置飞书API，邮箱等信息
-**main.py ** 为启动文件
+* config.py 配置文件 可配置飞书API，邮箱等信息
+* main.py 为启动文件
 
 ### 运行方式
 
-** step1  bash run.sh **
-** step2 python3 main.py **
+* step1 :bash run.sh 
+* step2 :python3 main.py
