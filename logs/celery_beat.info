@@ -70,3 +70,5 @@
 [2021-03-01 10:35:53,327: INFO/MainProcess] Scheduler: Sending due task 定时检测 (scheduler.run_check)
 [2021-03-01 10:36:53,376: INFO/MainProcess] Scheduler: Sending due task 定时检测 (scheduler.run_check)
 [2021-03-01 10:37:53,432: INFO/MainProcess] Scheduler: Sending due task 定时检测 (scheduler.run_check)
+[2021-03-01 10:38:53,486: INFO/MainProcess] Scheduler: Sending due task 定时检测 (scheduler.run_check)
+[2021-03-01 10:39:53,536: INFO/MainProcess] Scheduler: Sending due task 定时检测 (scheduler.run_check)
