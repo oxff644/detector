@@ -24,8 +24,7 @@ class DB:
         key = hash_code(data["url"])
         last_data = db.get(key)
         db[key] = data
-        if last_data == False or last_data == None:
-            return True
+        return not bool(last_data)
 
     def delete(self, key: str):
         """
