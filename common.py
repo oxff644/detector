@@ -9,6 +9,14 @@ except Exception as e:
     from config import Config
 
     db = pickledb.load(f"{Config.name}_datas.db", True)
+    
+    @contextmanager
+def db_action():
+    db = pickledb.load(f"{Config.name}_datas.db", False)
+    try:
+        yield db
+    finally:
+        db.dump()
 
 
 def hash_code(strs):
