@@ -10,7 +10,7 @@
 
 ### 运行方式
 
-* step1 :https://github.com/oxff644/detector.git
+* step1 :git clone https://github.com/oxff644/detector.git
 * step2 :cd detector/
 * step3 :bash run.sh 
 * step4 :python3 main.py
