@@ -1,4 +1,5 @@
 import hashlib
+from contextlib import contextmanager
 from dataclasses import dataclass
 
 try:
@@ -9,8 +10,9 @@ except Exception as e:
     from config import Config
 
     db = pickledb.load(f"{Config.name}_datas.db", True)
-    
-    @contextmanager
+
+
+@contextmanager
 def db_action():
     db = pickledb.load(f"{Config.name}_datas.db", False)
     try:
