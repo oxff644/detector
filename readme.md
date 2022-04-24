@@ -10,7 +10,7 @@
 
 - config.py 配置文件 可配置飞书API，邮箱等信息
 - main.py 为启动文件
-
+项目详情可参考：https://mp.weixin.qq.com/s/UXjZLHEiDwBHRQzAEkkxtg
 ### 运行方式
 
 ```bash
